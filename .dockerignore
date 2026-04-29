@@ -1,0 +1,32 @@
+# 버전 관리
+.git
+.gitignore
+
+# 빌드 산출물
+.gradle/
+build/
+!build/libs/app.jar
+*.class
+
+# 환경 설정 / 민감 정보
+# .env
+# .env.*
+*.key
+*.pem
+secrets/
+
+# 로그
+*.log
+logs/
+
+# IDE 설정
+.idea/
+.vscode/
+*.iml
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 테스트 결과
+test-results/
